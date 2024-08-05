@@ -1,0 +1,91 @@
+.dashbored-fields{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.dashbored-fields p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 12.5%;
+    padding: 10px;
+}
+
+.dashbored-data{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+.dashbored-data p{
+    font-size: 20px;
+    width: 12.5%;
+    padding: 20px;
+    text-align: center;
+}
+
+.my-img{
+    height: 50px;
+    width: 50px;
+}
+
+.add-btn{
+    background-color: #094B72;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 88%;
+}
+
+.del-btn{
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.upd-btn{
+    color: #094B72;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px; /* Ensures the table doesn't shrink below the width for 8 columns */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+@media(max-width:1024px){
+    .add-btn{
+        margin-left: 0;
+    }
+}

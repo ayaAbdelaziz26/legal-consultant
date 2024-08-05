@@ -1,0 +1,58 @@
+.add{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color:#00000090;
+    position: absolute;
+    display: grid;
+}
+
+
+.add-container{
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    width: max(30vw,250px);
+    max-height: 700px;
+    place-self: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 10px;
+}
+
+.add-container h1{
+    text-align: center;
+    color: #094B72;
+}
+
+.add-container label{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.add-container button{
+    height: 40px;
+    width: 180px;
+    margin: 40px 0;
+}
+
+.add-container-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-container-btns button{
+    background-color: #094B72;
+    height: 40px;
+    width: 180px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}

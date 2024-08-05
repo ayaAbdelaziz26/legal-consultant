@@ -1,0 +1,67 @@
+.navbar{
+    font-family: "Poppins", sans-serif;
+    height: 100px;
+}
+
+.navbar-logo{
+    display: flex;
+}
+
+ .navbar-logo img{
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;    
+} 
+
+.navbar-logo p{
+    padding: 5px;
+    color: #2D2F30;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-options{
+    display: flex;
+    color: #2D2F30;
+    width: Hug (447px)px;
+    height: Hug (47px)px;
+    top: 26px;
+    left: 653px;
+   padding: 12px 0px 0px 0px;
+   gap: 60px;
+}
+
+.navbar-options p{
+font-size: 12px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 1.5px;
+height: 23px;
+}
+
+.navbar-search{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.navbar-menue{
+    display: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width:768px){
+    .navbar-menue{
+        display: block;
+    }
+
+    .navbar-options{
+        display: none;
+    }
+}

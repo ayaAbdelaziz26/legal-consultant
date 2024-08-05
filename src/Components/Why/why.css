@@ -1,0 +1,93 @@
+.why{
+    background-color: #F2F7FF;
+}
+
+.why-sections{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7%;
+    background-color: #F2F7FF;
+    padding: 100px 0;
+}
+
+.why-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.why-left h1{
+    font-family: Playfair Display;
+    font-size: max(4vw,30px);
+    font-weight: 700;
+    letter-spacing: 0.32307693362236023px;
+    color: #2D2F30;   
+    text-align: left;
+    padding: 10px;
+}
+
+.why-left p{
+    font-family: Poppins;
+    font-size: max(1.5vw,14px);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #8B8C8C;
+    text-align: left;
+    padding: 10px;
+}
+
+.why-right div{
+    width: 256px;
+    height:253pxpx;
+    padding: 24px;
+    gap: 18px;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px #0000000F;
+    margin: 10px;
+    text-align: left;
+}
+
+.why-right div h2{
+    width: 181px;
+    height: 44px;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:#363940;
+    padding: 20px 0;
+
+}
+
+.why-right div p{
+    width: 210px;
+    height: 96px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: #8B8C8C;
+    padding: 20px 0;
+}
+
+@media(max-width:1100px){
+    .why-sections{
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:560px){
+    .why-right{
+        grid-template-columns: 1fr;
+    }
+
+    .why-left h1{
+        text-align: center;
+    }
+}

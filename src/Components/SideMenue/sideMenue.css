@@ -1,0 +1,40 @@
+.side-menue{
+    text-align: center;
+    height: 870px;
+    width: 300px;
+    background-color:#094B72;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.side-menue-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.side-menue-top img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.side-menue-list{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-menue-list hr{
+    width: 70%;
+    text-align: center;
+}
+
+.side-menue-list p{
+    padding: 10px 5px;
+    cursor: pointer;
+}

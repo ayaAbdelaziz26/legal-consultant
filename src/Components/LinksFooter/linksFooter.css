@@ -1,0 +1,24 @@
+.linksFooter{
+    background-color: #004D7B;
+    padding: 20px;
+}
+
+.linksFooter-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linksFooter-social img{
+    padding: 0px 10px;
+}
+
+.linksFooter-copy span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
